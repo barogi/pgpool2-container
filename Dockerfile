@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV PGP2_VER 3.5.4
+ENV PGP2_VER 3.5.5
 
 RUN apt-get update && \
     apt-get install -y curl build-essential libpq-dev
