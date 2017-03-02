@@ -34,4 +34,6 @@ RUN mkdir /var/run/pgpool && \
 
 EXPOSE 9999 9898
 
+VOLUME ["/var/log/pgpool"]
+
 CMD ["pgpool","-n"]
